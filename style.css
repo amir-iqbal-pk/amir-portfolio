@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +30,7 @@ img{
     width: 100%;
 }
 a:hover{
-    color: #08fdd8;
+    color: #08fdd8;;
 }
 .main-frame{
     display: flex;
@@ -248,7 +249,6 @@ a:hover{
      color: #515152;
      font-size: 3rem;
      position: relative; 
-     margin-left: -40px;
      display: flex;
      justify-content: flex-start; 
 }
@@ -260,5 +260,71 @@ a:hover{
     font-size: 2.5rem;
     position: relative; 
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-start; 
+}
+.btn-main{
+    display: flex;
+}
+.flat-btn{
+    position: relative;
+    width: 200px;
+    margin-left: 40px;
+    height: 50px;
+    border: 1px solid #c5001a;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0); 
+    font-family:"Open Sans",sans-serif;;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 0;
+    white-space: nowrap;
+    border-radius: 10px 10px;
+}
+.flat-btn:hover{
+    border: 1px solid #08fdd8;
+}
+.Scroll-down1{
+    position: fixed;
+    justify-content: flex-start;
+    bottom: 2rem;
+    display: flex;
+    margin-left: -75px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.Scroll-down1 > span {
+      writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+}
+.Scroll-down{
+    position: absolute;
+    right: 10px;
+    bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.Scroll-down > span{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
 }
