@@ -165,7 +165,6 @@ a:hover{
     min-height: 100vh;
     padding: 9rem 3rem;
     display: inline-block;
-   
 }
 .text-zone{
     z-index: 1;
@@ -395,7 +394,6 @@ a:hover{
 }
 .projects-list:not(:last-of-type){
     margin-bottom: 100px;
-
 }
 .project-overline{
    margin: 10px 0px;
@@ -484,6 +482,9 @@ a:hover{
     justify-content: flex-start;
     font-size: clamp(24px, 5vw, 28px);
 }
+.project-title-rev > a:hover{
+    color: #08fdd8;
+}
 .project-discription-Rev{
     box-shadow: 0 10px 30px -15px rgb(2 12 27 / 70%);
     margin-top: 15px;
@@ -498,6 +499,7 @@ a:hover{
     color: #a8b2d1;
     font-size: 18px;
 }
+
 .project-image-rev > img{
     display: flex;
     align-items: center;
@@ -529,4 +531,10 @@ a:hover{
     display: flex;
     justify-content: flex-start;
     padding-left: 10px;
+}
+.project-links-rev > a:hover{
+    color: #08fdd8;
+}
+.project-links-rev > a{
+    color: #515152;
 }
