@@ -502,6 +502,7 @@ a:hover{
 
 .project-image-rev > img{
     display: flex;
+    object-fit :cover;
     align-items: center;
     justify-content: center;
     position:inherit;
